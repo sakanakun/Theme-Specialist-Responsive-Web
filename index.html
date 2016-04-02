@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Module2-soulution</title> 
+  
     <link href="css/Styles.css" rel="stylesheet">
     <script   src="http://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
 
@@ -12,6 +12,45 @@
 
   </head>
   <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+
+          </button>
+                  </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <div id="nav-list" class="nav navbar-nav">
+            
+              <a href="#skills">
+                <span class="glyphicon glyphicon-cutlery"></span>Skills</a>
+            
+           
+              <a href="#education">
+                <span class="glyphicon glyphicon-info-sign"></span>Education</a>
+         
+            
+              <a href="#facts">
+                <span class="glyphicon glyphicon-certificate"></span> Facts</a>
+            </div>
+          
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
   <div class="container-fluid">
       <div class="page-header">
         <h2>Cheng Zhou</h2>
@@ -20,6 +59,7 @@
     
 
     <div class="row">
+
     <section>
      <div class="slider">
         <div class="slide-viewer">
@@ -44,7 +84,7 @@
     </section>
 
         <section class="col-lg-4 col-md-6">
-           <div class="skills"><span><h3>Skills</h3></span></div>
+           <div class="skills" id="skills"><span><h3>Skills</h3></span></div>
            <p>
             <Strong>HTML, CSS and JavaScript(Bootstrap, jQuery)</Strong> using Sublime Text, familiarity with Liquid templating
             <br />
@@ -60,7 +100,7 @@
             
         </section>
          <section class="col-lg-4 col-md-6">
-           <div class="education"><span><h3>Education</h3></span></div>
+           <div class="education" id="education"><span><h3>Education</h3></span></div>
            
             <p class = "educationp">I have spent four years pouring over university textbooks, and <b>graduated with distinction</b> from the Electrical Engineering Program at McMaster University with a <b>Bachelor of Engineering degree.</b> 
             <br />
@@ -74,7 +114,7 @@
             
         </section>
          <section class="col-lg-4 col-md-12">
-           <div class="facts"><span><h3>Facts</h3></span></div>
+           <div class="facts" id="facts"><span><h3>Facts</h3></span></div>
                     
             
             
